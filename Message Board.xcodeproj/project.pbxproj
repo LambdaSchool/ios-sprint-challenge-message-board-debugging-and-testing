@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34C328A9217A329E002E383A /* TestPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C328A8217A329E002E383A /* TestPage.swift */; };
+		34C328AB217A32D3002E383A /* MessageThreadTVCTestPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C328AA217A32D3002E383A /* MessageThreadTVCTestPage.swift */; };
+		34C328AD217A332C002E383A /* TestCase+Expect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C328AC217A332B002E383A /* TestCase+Expect.swift */; };
+		34C328AF217A3357002E383A /* MessageThreadDetailTVCTestPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C328AE217A3357002E383A /* MessageThreadDetailTVCTestPage.swift */; };
+		34C328B1217A337D002E383A /* MessageDetailVCTestPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C328B0217A337D002E383A /* MessageDetailVCTestPage.swift */; };
 		4612B5C8211AB41100E7FF73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612B5C7211AB41100E7FF73 /* AppDelegate.swift */; };
 		4612B5CD211AB41200E7FF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4612B5CB211AB41200E7FF73 /* Main.storyboard */; };
 		4612B5CF211AB41300E7FF73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4612B5CE211AB41300E7FF73 /* Assets.xcassets */; };
@@ -42,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34C328A8217A329E002E383A /* TestPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPage.swift; sourceTree = "<group>"; };
+		34C328AA217A32D3002E383A /* MessageThreadTVCTestPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThreadTVCTestPage.swift; sourceTree = "<group>"; };
+		34C328AC217A332B002E383A /* TestCase+Expect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestCase+Expect.swift"; sourceTree = "<group>"; };
+		34C328AE217A3357002E383A /* MessageThreadDetailTVCTestPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThreadDetailTVCTestPage.swift; sourceTree = "<group>"; };
+		34C328B0217A337D002E383A /* MessageDetailVCTestPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailVCTestPage.swift; sourceTree = "<group>"; };
 		4612B5C4211AB41100E7FF73 /* Message Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Message Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4612B5C7211AB41100E7FF73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4612B5CC211AB41200E7FF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -136,6 +146,11 @@
 			isa = PBXGroup;
 			children = (
 				4629C7E8214BA09600E7FF73 /* Message_BoardUITests.swift */,
+				34C328AA217A32D3002E383A /* MessageThreadTVCTestPage.swift */,
+				34C328AE217A3357002E383A /* MessageThreadDetailTVCTestPage.swift */,
+				34C328B0217A337D002E383A /* MessageDetailVCTestPage.swift */,
+				34C328A8217A329E002E383A /* TestPage.swift */,
+				34C328AC217A332B002E383A /* TestCase+Expect.swift */,
 				4629C7EA214BA09600E7FF73 /* Info.plist */,
 			);
 			path = "Message BoardUITests";
@@ -345,6 +360,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C328AD217A332C002E383A /* TestCase+Expect.swift in Sources */,
+				34C328AB217A32D3002E383A /* MessageThreadTVCTestPage.swift in Sources */,
+				34C328B1217A337D002E383A /* MessageDetailVCTestPage.swift in Sources */,
+				34C328AF217A3357002E383A /* MessageThreadDetailTVCTestPage.swift in Sources */,
+				34C328A9217A329E002E383A /* TestPage.swift in Sources */,
 				4629C7E9214BA09600E7FF73 /* Message_BoardUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,7 +531,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = 2SS9AYZ8LT;
 				INFOPLIST_FILE = "$(SRCROOT)/Message Board/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -529,7 +549,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VXUQXR6S56;
+				DEVELOPMENT_TEAM = 2SS9AYZ8LT;
 				INFOPLIST_FILE = "$(SRCROOT)/Message Board/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

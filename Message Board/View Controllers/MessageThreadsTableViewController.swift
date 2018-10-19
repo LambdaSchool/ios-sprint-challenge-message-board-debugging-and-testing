@@ -10,6 +10,12 @@ import UIKit
 
 class MessageThreadsTableViewController: UITableViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        threadTitleTextField.accessibilityIdentifier = "MessageThreadsTableViewController.NewThreadTextField"
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
